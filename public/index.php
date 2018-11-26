@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>PMJCREATIES</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/custom.css" type="text/css">
-    <link rel="stylesheet" href="styles/newsletter.css" type="text/css">
-    <link rel="stylesheet" href="styles/media-queries.css" type="text/css">
+    <link rel="stylesheet" href="../resources/assets/css/custom.css" type="text/css">
+    <link rel="stylesheet" href="../resources/assets/css/newsletter.css" type="text/css">
+    <link rel="stylesheet" href="../resources/assets/css/media-queries.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="script/navbar.js"></script>
+    <script src="../resources/assets/js/navbar.js"></script>
 
     <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
-    <script src="animations/PMJ_JUMBOTRON.js"></script>
+    <script src="../resources/assets/animations/PMJ_JUMBOTRON.js"></script>
     <script>
         var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
         function init() {
