@@ -1,0 +1,167 @@
+@font-face {
+    font-family: Cabana;
+    src: url(../fonts/Cabana-Regular.otf);
+}
+
+@font-face {
+    font-family: Antro Vectra;
+    src: url(../fonts/Antro_Vectra_Bolder.otf);
+}
+
+body {
+    font-family: Cabana, sans-serif;
+    margin: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #757373;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+a.brand {
+    float: left;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+    color: black;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+.jumbotron {
+    background-color: #9FA9A7;
+    width: 98%;
+    height: 350px;
+    padding: 0px;
+    margin: 1% auto;
+}
+#animation_container {
+    margin: auto;
+}
+
+.static_jumbotron {
+    display: none;
+    width: 100%;
+    height: 200px;
+    background-color: #9FA9A7;
+}
+
+.static_jumbotron h1{
+    font-size: 90px;
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+
+}
+
+.static_jumbotron p {
+    text-align: center;
+    font-family: "Antro Vectra", sans-serif;
+    padding-top: 10px;
+    font-size: 25px;
+    color: white;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    height: 400px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+#image1 {
+    background-image: url("../images/vogeltjes.jpg");
+}
+
+#image2 {
+    background-image: url("../images/gehaakte_waxinehouders.jpg");
+    background-size: 490px;
+}
+
+#image3 {
+    background-image: url("../images/wolkjes.jpg");
+    background-size: 490px;
+}
+
+#image4 {
+    background-image: url("../images/kerstboom.jpg");
+    background-repeat: no-repeat;
+    background-size: 600px;
+}
+
+#image5 {
+    background-image: url("../images/sleutelhanger.jpg");
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position: center;
+}
+
+#image6 {
+    background-image: url("../images/gehaakt_mandje.jpg");
+    background-repeat: no-repeat;
+    background-size: 450px;
+    background-position: center;
+}
+.text {
+    display: block;
+    height: 80px;
+    margin: 175px auto;
+    background-color: white;
+    font-size: 50px;
+    text-align: center;
+    opacity: 0.9;
+}
+
+.text a {
+    text-decoration: none;
+    color: black;
+}
+
+.text:hover {
+    background-color: #9FA9A7;
+    color: white;
+}
+footer {
+    background-color: #757373;
+    height: 100px;
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 15px;
+
+    }
+
+
+
+
+
+
+
