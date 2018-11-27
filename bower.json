@@ -1,0 +1,10 @@
+{
+  "name": "pmjcreaties-webshop",
+  "dependencies": {
+    "foundation-sites": "6.3.1",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "motion-ui": "^2.0.3"
+  }
+}
