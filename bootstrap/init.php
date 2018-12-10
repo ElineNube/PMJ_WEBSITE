@@ -1,11 +1,15 @@
 <?php
-
-#Start session if it is not already started
-
+/**
+ * Start session if not already started
+ */
 if(!isset($_SESSION)) session_start();
 
-//Load environment variable
-
+//load environment variable
 require_once __DIR__ . '/../app/config/_env.php';
 
+//load routes
 require_once __DIR__ . '/../app/routing/routes.php';
+
+
+// create a new RouteDispatcher
+new \App\RouteDispatcher($router);
